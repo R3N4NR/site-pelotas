@@ -29,19 +29,19 @@ const CarrosselDestaques = () => {
       <Slider {...settings}>
       
         <img
-          src="https://manutencaoemacao.com/wp-content/uploads/2022/10/Camisa-Time-Melvin-002.jpg"
+          src="/news/elenco-sub-17.png"
           className="d-block "
           alt="Camisa de time"
         />
         
         <img
-          src="https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2024/01/trofeus-ou-trofeis.jpg?crop=1&resize=1212,909"
+          src="/news/pre-jogo.png"
           className="d-block"
           alt="Troféus"
         />
 
         <img
-          src="https://img.freepik.com/vetores-gratis/estadio-de-futebol_1284-22432.jpg"
+          src="/news/proximo-jogo.png"
           className="d-block"
           alt="Estádio de futebol"
         />
