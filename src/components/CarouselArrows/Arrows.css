@@ -1,0 +1,28 @@
+.nextArrow {
+    display: flex;
+    background: black;
+    color: aliceblue;
+    padding: 10px;
+    top:40%;
+    right: 0;
+    border-radius: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prevArrow {
+    display: flex;
+    background: black;
+    color: aliceblue;
+    padding: 10px;
+    top:40%;
+    border-radius: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}

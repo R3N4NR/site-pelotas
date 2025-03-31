@@ -1,0 +1,49 @@
+
+.container-secundario {
+    flex: 1; /* Ocupar espaço disponível */
+    width: 50%;
+  }
+.container-secundario img {
+    height: 150px;
+    width: 270px;
+}
+
+.jogo-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.proximo-jogo {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+
+.jogo-info img {
+    max-width: 60px;
+    /* Tamanho máximo das imagens */
+    max-height: 80px;
+    /* Tamanho máximo das imagens */
+    width: 100%;
+    /* Faz as imagens se ajustarem ao espaço */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.jogo-times{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.time{
+    flex-direction: column;
+    display: flex;
+}

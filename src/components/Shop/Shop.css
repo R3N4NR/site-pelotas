@@ -1,0 +1,74 @@
+.loja-container {
+    width: 100%;
+    
+}
+
+.loja-container img {
+    
+    height: 250px;
+    object-fit: contain;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+}
+
+
+
+
+.loja-carrossel .carousel-item img {
+    object-fit: contain;
+    width: 100px;
+    height: 200px;
+    gap: 20px;
+}
+
+.loja-carrossel .textos {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.loja-carrossel .textos h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.loja-carrossel .textos p {
+    font-size: 14px;
+}
+
+/* Estilos para o carrossel do Slick */
+.slick-slider {
+    width: 100%;
+    overflow: hidden;
+    /* Garante que o carrossel tenha as bordas visíveis */
+
+}
+
+.slick-track {
+    display: flex;
+
+}
+
+.slick-slide {
+    display: inline-block;
+    width: auto;
+
+}
+
+.item-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-in {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+

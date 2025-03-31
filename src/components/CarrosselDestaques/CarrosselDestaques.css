@@ -1,0 +1,23 @@
+/* O carrossel começa invisível */
+.destaque {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+    width: 100%; /* Garante que o carrossel ocupe espaço */
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: auto; /* Centraliza */
+}
+
+/* Após a animação, ele aparece */
+.carrossel-visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Garante que as imagens não cortem */
+.destaque img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    display: block;
+}

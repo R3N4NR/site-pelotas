@@ -1,0 +1,50 @@
+/* Header.css */
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+.topo {
+    background-color: #0150a0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px; /* Espaçamento interno */
+}
+
+.imagem {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    height: 130px;
+    width: 110px;
+    z-index: 1;
+}
+
+.baixo {
+    background-color: #ffdc00;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baixo .texto {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 10%;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.redes-sociais-header {
+    display: flex;
+    gap: 15px; /* Espaço entre os ícones */
+    margin-left: auto; /* Empurra os ícones para a direita */
+    color: aliceblue;
+}

@@ -1,0 +1,305 @@
+@media (min-width: 200px) and (max-width: 480px) {
+
+    body,
+    html {
+        font-size: 14px;
+        /* Ajusta o tamanho da fonte para telas menores */
+    }
+
+    header {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .baixo {
+        display: none;
+    }
+
+    header span {
+        display: none;
+    }
+
+    .imagem {
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        height: 60px;
+        width: 50px;
+        z-index: 1;
+    }
+
+    .btn {
+        background-color: rgba(40, 40, 40, 0.1) !important;
+        border: none;
+        color: black;
+    }
+
+    .btn svg:nth-child(1) {
+        width: 100px;
+        transform: scale(2);
+    }
+
+
+    .dropdown-button,
+    .dropdown,
+    .btn-group {
+        visibility: visible !important;
+        display: flex !important;
+    }
+
+    .main-container {
+        flex-direction: column;
+        /* Faz com que os itens se alinhem verticalmente */
+        margin: 10px;
+        /* Adiciona uma margem menor */
+    }
+
+    .container-wrapper {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .destaque {
+        height: 50%;
+        margin-top: 20px;
+    }
+
+    .container-secundario {
+        width: 100%;
+    }
+
+    .jogo-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proximo-jogo {
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+    }
+
+
+    /* Ajustando a largura dos elementos para telas pequenas */
+    .carrossel-items {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .loja-container img {
+        width: 100%;
+        /* Faz as imagens da loja ocuparem 100% da largura */
+        height: auto;
+        /* Ajusta a altura automaticamente */
+    }
+
+    .slick-dots {
+        /* opacity: 100%; */
+        color: black;
+        padding: 50px;
+    }
+
+    .bloco {
+        width: 50px;
+        height: 50px;
+        background-color: #34db34;
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 1s ease-out;
+    }
+
+    /* Ajusta o tamanho das imagens no carrossel */
+    .loja-carrossel .carousel-item img {
+        width: 80px;
+        height: 150px;
+    }
+
+    .socio-info {
+        flex-direction: column;
+        /* Alinha os itens de forma vertical */
+        justify-content: left;
+        display: flex;
+        align-items: center;
+    }
+
+    .socio-texto {
+        width: 100%;
+        justify-content: left;
+        text-align: left;
+        display: flex;
+        ;
+        line-height: 40px;
+        margin-top: 30px;
+    }
+
+    .rodape {
+
+        /* padding: 50px 20px 0 0; */
+        background-color: black;
+        opacity: 90%;
+        text-align: center;
+        color: white;
+        /* line-height: 50px; */
+    }
+
+    .col,
+    ul {
+        width: 50vw;
+        flex-direction: row;
+    }
+
+    .escudo-socio {
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .rodape img:nth-child(1) {
+        width: 80px;
+        height: 100px;
+        margin: 0;
+    }
+
+    .escudo-socio img:nth-child(2) {
+        height: 100%;
+        align-self: center;
+    }
+
+    .rodape img:nth-child(2) {
+        width: 200px;
+        height: 50px;
+
+    }
+
+    .rodape li {
+        list-style: none;
+        text-align: left;
+
+    }
+
+
+}
+
+.servico-de-jogo-container {
+    width: 100%;
+
+}
+
+.servico-de-jogo-textos {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+
+}
+
+.servico-de-jogo-info {
+    justify-content: center;
+    display: block;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 1px solid rgba(219, 214, 214, 0.5);
+    border-left: 1px solid rgba(219, 214, 214, 0.5);
+    box-shadow: -4px -4px 16px rgba(219, 214, 214, 0.5);
+}
+
+.servico-de-jogo-pelotas {
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+
+.titulo {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 50px 0 50px 0;
+}
+
+/* Media Query para telas pequenas (como dispositivos móveis) */
+@media (min-width: 720px) {
+    .topo {
+        height: 60px;
+        /* Reduz a altura do topo em telas menores */
+    }
+
+    .imagem {
+        top: 10px;
+        /* Ajusta a posição da imagem */
+        left: 5%;
+        height: 100px;
+        /* Ajusta a altura da imagem */
+        width: 90px;
+        /* Ajusta a largura da imagem */
+    }
+
+    .baixo {
+        height: 60px;
+    }
+
+    .baixo .texto {
+        font-size: 14px;
+        padding-left: 5%;
+        gap: 30px;
+    }
+
+    .loja-container {
+        padding-left: 10px;
+        /* Diminui o padding */
+    }
+
+    .bloco {
+        width: 80px;
+        height: 80px;
+    }
+
+    .servico-de-jogo-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servico-de-jogo-textos {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
+        font-size: 18px;
+        padding: 20px;
+        line-height: 40px;
+    }
+
+    .servico-de-jogo-info {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        border-top: 1px solid rgba(219, 214, 214, 0.5);
+        border-left: 1px solid rgba(219, 214, 214, 0.5);
+        box-shadow: -4px -4px 16px rgba(219, 214, 214, 0.5);
+    }
+
+    .carrossel-fade {
+        transition: opacity 1.5s ease;
+    }
+}
+
+@keyframes expand {
+    0% {
+        width: 100px;
+        height: 100px;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}

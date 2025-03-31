@@ -1,0 +1,52 @@
+.patrocinador-container {
+    width: 100%;
+}
+
+
+  .d-flex {
+    gap: 10px;
+    overflow: hidden;
+  }
+
+  .bloco {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    opacity: 0;
+    margin-right: 10px;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+  }
+  
+  .blocos{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+
+  }
+
+  
+  /* Classe que será adicionada quando a div for visível */
+  .visivel .bloco {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .bloco:nth-child(1) {
+    transition-delay: 0.1s;
+  }
+
+  .bloco:nth-child(2) {
+    transition-delay: 0.2s;
+  }
+
+  .bloco:nth-child(3) {
+    transition-delay: 0.3s;
+  }
+
+  .bloco:nth-child(4) {
+    transition-delay: 0.4s;
+  }
+
+  .bloco:nth-child(5) {
+    transition-delay: 0.5s;
+  }

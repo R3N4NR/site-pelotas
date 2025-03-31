@@ -1,0 +1,8 @@
+.fornecedora-uniforme{
+    box-shadow: 0 2px 0 8px rgba(219, 214, 214, 0.2);
+    border: 0 1px 0 1px rgba(219, 214, 214, 0.2);            background-color: white;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

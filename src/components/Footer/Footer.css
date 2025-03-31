@@ -1,0 +1,29 @@
+.rodape{
+            
+    padding: 50px 20px 0 0;
+    background-color: black;
+    opacity: 90%;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
+.rodape li {
+    list-style: none;
+    text-align: left;
+}
+.rodape img:nth-child(1){
+    height: 120px;
+    width: 100px;
+    margin:0 80px;
+}
+
+.rodape img:nth-child(2){
+    width: 200px;
+    height: 50px;
+}
+  .titulo{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 50px 0 50px 0  ;
+  }

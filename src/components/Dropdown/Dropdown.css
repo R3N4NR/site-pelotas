@@ -1,0 +1,9 @@
+.dropdown-toggle::after,.btn::after, .btn-primary::after{
+    visibility: hidden !important;
+    display: none !important;
+}
+.dropdown-button, .dropdown, .btn-group{
+    visibility: hidden !important;
+    display: none !important;
+}
+

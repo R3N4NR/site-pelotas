@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-
+import Shop from './components/Shop/Shop';
+import Sponsors from './components/Sponsors/Sponsors';
+import GameInfo from './components/GameInfo/GameInfo';
+import Socio from './components/Socio/Socio';
+import Footer from './components/Footer/Footer';
+import Header from "./components/Header/Header";
+import CarrosselDestaques from "./components/CarrosselDestaques/CarrosselDestaques";
+import Fornecedora from "./components/Fornecedora/Fornecedora";
+import Enderecos from "./components/Address/Address";
+ 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header />
+      <main className="main-container">
+      <div className="container-wrapper">
+        <CarrosselDestaques />
+        <GameInfo />
+        </div>
+        <Shop/>
+        <Sponsors />
+        <Socio />
+
+      </main>
+      <Fornecedora/>
+      <Enderecos/>
+      <Footer />
     </div>
   );
 }
