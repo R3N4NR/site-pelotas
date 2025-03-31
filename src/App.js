@@ -9,6 +9,7 @@ import Header from "./components/Header/Header";
 import CarrosselDestaques from "./components/CarrosselDestaques/CarrosselDestaques";
 import Fornecedora from "./components/Fornecedora/Fornecedora";
 import Enderecos from "./components/Address/Address";
+import ServicoDeJogo from "./components/MatchInfo/MatchInfo";
  
 function App() {
 
@@ -22,8 +23,8 @@ function App() {
         </div>
         <Shop/>
         <Sponsors />
+        <ServicoDeJogo />
         <Socio />
-
       </main>
       <Fornecedora/>
       <Enderecos/>

@@ -133,6 +133,35 @@
         margin-top: 30px;
     }
 
+    .servico-de-jogo-container{
+        width: 100%;
+       height: auto;
+      }
+    
+      .servico-de-jogo-textos{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        font-size: 18px;
+        flex-direction: column;
+     
+      }
+      .servico-de-jogo-info{
+        justify-content: center;
+        display: block;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 10px;
+        border-top: 1px solid rgba(219, 214, 214, 0.5); 
+        border-left: 1px solid rgba(219, 214, 214, 0.5);
+        box-shadow: -4px -4px 16px rgba(219, 214, 214, 0.5); 
+      }
+      .servico-de-jogo-pelotas{
+        justify-content: space-around;
+        flex-direction: row;
+        display: flex;
+      }
+
     .rodape {
 
         background-color: black;

@@ -1,0 +1,35 @@
+.servico-de-jogo-container{
+    width: 100%;
+
+  }
+
+  .servico-de-jogo-textos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 40px;
+  }
+  .servico-de-jogo-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 1px solid rgba(219, 214, 214, 0.5); 
+    border-left: 1px solid rgba(219, 214, 214, 0.5);
+    box-shadow: -4px -4px 16px rgba(219, 214, 214, 0.5); 
+  }
+
+  .text-blue {
+    color: #0150a0;
+    font-weight: bolder;
+  }
+  
+  .text-yellow {
+    font-weight: bolder;
+    color: #ffdc00;
+  }
