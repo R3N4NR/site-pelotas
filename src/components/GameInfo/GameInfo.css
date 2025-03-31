@@ -1,6 +1,6 @@
 
 .container-secundario {
-    flex: 1; /* Ocupar espaço disponível */
+    flex: 1; 
     width: 50%;
   }
 .container-secundario img {

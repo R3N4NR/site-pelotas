@@ -7,21 +7,19 @@
 }
 
 .lado-azul {
-    background-color: #0150a0; /* Cor de fundo azul para a div */
-    width: 50%; /* A div azul ocupará o espaço disponível */
-    display: flex; /* Usando flexbox para alinhar o conteúdo */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
-    padding: 30px 0;
+    background-color: #0150a0; width: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; padding: 30px 0;
 }
 
 .lado-amarelo {
-    background-color: #f5db33; /* Cor de fundo amarela para a div */
-    width: 50%; /* A div azul ocupará o espaço disponível */
-    display: flex; /* Usando flexbox para alinhar o conteúdo */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
-    padding: 30px 0;
+    background-color: #f5db33; 
+    width: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+     padding: 30px 0;
 }
 .lado-azul li, .lado-amarelo li{
    list-style: none;

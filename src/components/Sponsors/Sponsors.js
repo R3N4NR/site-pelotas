@@ -4,7 +4,6 @@ const Sponsors = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Aguarde um pequeno tempo para garantir que o CSS reconheça a transição
     setTimeout(() => {
       setIsVisible(true);
     }, 100);

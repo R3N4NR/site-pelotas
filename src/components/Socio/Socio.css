@@ -1,8 +1,6 @@
 .servico-de-jogo-container{
     width: 100%;
-
   }
-
   .servico-de-jogo-textos{
     display: flex;
     width: 100%;
@@ -44,14 +42,12 @@
     height: 400px;
   }
 
-
 .socio-texto{
   width: 50%;
   display: flex;
   flex-direction: column;
   text-align: left;
   line-height: 40px;
-
 }
 
 

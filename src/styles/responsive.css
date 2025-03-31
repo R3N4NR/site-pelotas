@@ -3,8 +3,7 @@
     body,
     html {
         font-size: 14px;
-        /* Ajusta o tamanho da fonte para telas menores */
-    }
+        }
 
     header {
         justify-content: center;
@@ -23,7 +22,7 @@
 
     .imagem {
         position: absolute;
-        top: 15%;
+        top: 10%;
         left: 40%;
         height: 60px;
         width: 50px;
@@ -31,7 +30,7 @@
     }
 
     .btn {
-        background-color: rgba(40, 40, 40, 0.1) !important;
+        background-color: rgba(40, 40, 40, 0.4) !important;
         border: none;
         color: black;
     }
@@ -39,6 +38,7 @@
     .btn svg:nth-child(1) {
         width: 100px;
         transform: scale(2);
+        
     }
 
 
@@ -51,25 +51,26 @@
 
     .main-container {
         flex-direction: column;
-        /* Faz com que os itens se alinhem verticalmente */
         margin: 10px;
-        /* Adiciona uma margem menor */
     }
 
     .container-wrapper {
         width: 100%;
-        justify-content: center;
         display: flex;
-        /* align-items: center; */
         flex-direction: column;
         gap: 0;
     }
-
-    .destaque {
-        height: 50%;
-        margin-top: 20px;
+    
+    .destaque{
+        max-height: 265px;
+        margin: 20px 0;
     }
-
+    
+    .destaque img{
+        max-height: 265px;
+        object-fit: fill;
+        
+    }
     .container-secundario {
         width: 100%;
     }
@@ -83,10 +84,9 @@
         width: 100%;
         display: flex;
         margin-top: 50px;
+        font-weight: 600;
     }
 
-
-    /* Ajustando a largura dos elementos para telas pequenas */
     .carrossel-items {
         flex-direction: column;
         gap: 10px;
@@ -94,13 +94,11 @@
 
     .loja-container img {
         width: 100%;
-        /* Faz as imagens da loja ocuparem 100% da largura */
         height: auto;
-        /* Ajusta a altura automaticamente */
     }
 
     .slick-dots {
-        /* opacity: 100%; */
+        
         color: black;
         padding: 50px;
     }
@@ -113,15 +111,13 @@
         transition: transform 1s ease-out, opacity 1s ease-out;
     }
 
-    /* Ajusta o tamanho das imagens no carrossel */
-    .loja-carrossel .carousel-item img {
+   .loja-carrossel .carousel-item img {
         width: 80px;
         height: 150px;
     }
 
     .socio-info {
         flex-direction: column;
-        /* Alinha os itens de forma vertical */
         justify-content: left;
         display: flex;
         align-items: center;
@@ -139,12 +135,10 @@
 
     .rodape {
 
-        /* padding: 50px 20px 0 0; */
         background-color: black;
         opacity: 90%;
         text-align: center;
         color: white;
-        /* line-height: 50px; */
     }
 
     .col,
@@ -174,21 +168,16 @@
     .rodape img:nth-child(2) {
         width: 200px;
         height: 50px;
-
     }
 
     .rodape li {
         list-style: none;
         text-align: left;
-
     }
-
-
 }
 
 .servico-de-jogo-container {
     width: 100%;
-
 }
 
 .servico-de-jogo-textos {
@@ -197,7 +186,6 @@
     display: flex;
     font-size: 18px;
     flex-direction: column;
-
 }
 
 .servico-de-jogo-info {
@@ -223,21 +211,16 @@
     margin: 50px 0 50px 0;
 }
 
-/* Media Query para telas pequenas (como dispositivos móveis) */
 @media (min-width: 720px) {
     .topo {
         height: 60px;
-        /* Reduz a altura do topo em telas menores */
-    }
+        }
 
     .imagem {
         top: 10px;
-        /* Ajusta a posição da imagem */
         left: 5%;
         height: 100px;
-        /* Ajusta a altura da imagem */
         width: 90px;
-        /* Ajusta a largura da imagem */
     }
 
     .baixo {

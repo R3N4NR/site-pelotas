@@ -2,7 +2,6 @@
     width: 100%;
 }
 
-
   .d-flex {
     gap: 10px;
     overflow: hidden;
@@ -25,8 +24,7 @@
   }
 
   
-  /* Classe que será adicionada quando a div for visível */
-  .visivel .bloco {
+   .visivel .bloco {
     opacity: 1;
     transform: translateX(0);
   }

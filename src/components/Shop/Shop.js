@@ -14,20 +14,18 @@ const Shop = () => {
     prevArrow: <PrevArrow />,
     responsive: [
       {
-        breakpoint: 768, // Telas menores que 768px
-        settings: {
+        breakpoint: 768, settings: {
           slidesToShow: 1,
           arrows:false
         },
       },
       {
-        breakpoint: 1024, // Entre 768px e 1024px
-        settings: {
+        breakpoint: 1024, settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 1440, // Acima de 1024px
+        breakpoint: 1440, 
         settings: {
           slidesToShow: 3,
 
